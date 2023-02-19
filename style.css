@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+}
+
+.container {
+  text-align: center;
+  padding: 36px;
+  border-radius: 5px;
+  background-color: white;
+  flex: 0 0 80%;
+}
+
+#quoteBtn {
+  border: none;
+  color: #fff;
+  background-color: wheat;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#quoteBtn:hover {
+  color: #ffd000;
+}
+
+.nav {
+  position: absolute;
+  top: 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+.list-item {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
